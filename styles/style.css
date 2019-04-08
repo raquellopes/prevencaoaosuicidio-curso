@@ -1,0 +1,103 @@
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body { /* todo o body */
+    font-family: "Raleway", Medium;
+    font-size: 16px;
+    line-height: 28px;
+    color: #585858;
+}
+
+.bg-header { /* Parte da imagem */
+    background: url(../img/bg-header.png) center no-repeat;
+    background-size: cover;
+    min-height: 214px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.h4-titulo-imagem{ /* titulo-img */
+    font-family: 'Avenir LT Std 95 Black';
+    color: #fff;
+    font-size: 29px;
+    text-align: left;
+    margin-top: 20px;
+    /* Falta colocar a fonte correr */ 
+}
+
+.h3-subtitulo-img{ /* subtitulo bg */
+    font-family:'Raleway', Medium;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: left;
+}
+
+.h1-titulo {
+    color: #8D0000;
+    font-family: 'Raleway', Medium;
+    font-size: 30px;
+    margin-left: -23px;
+}
+
+.titulo-saiba-mais {
+    font-family: "Raleway", Medium;
+    font-size: 21px;
+    color: #910A0A;
+}
+
+.p-saibamais{
+    margin-left: 12px;
+}
+
+
+.pg-texto {
+    position: relative;
+    margin: 0 auto;
+    padding: 35px 20px 0;
+}
+
+.saibamais{
+    background-color: #f2d5d5;
+    border-radius: 12px;
+    margin-top: 60px;
+    padding: 15px 33px 10px;
+}
+
+.titulo-saibamais{
+    color: #910a0a;
+}
+
+.paginacao{
+    margin-top: 56px;
+}
+
+a{
+    color: #444444;
+}
+
+a:hover {
+    color: #707070;
+    text-decoration: none;
+}
+
+.float-left{ /* setas */
+    font-size: 70px;
+    margin-top: 56px;
+    margin-left: -23px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.embed-responsive{
+    height:500px;
+    width: 500px;
+    margin-top: -84px;
+}
